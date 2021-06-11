@@ -39,7 +39,7 @@ function(build_catch2_tests)
     find_package(Catch2 REQUIRED)
 
     add_executable(${_TEST} ${_SRC})
-    target_link_libraries(${_TEST} Catch2::Catch2 ${_LIBS})
+    target_link_libraries(${_TEST} Catch2WithMain ${_LIBS})
 
     include(CTest)
     include(Catch)
