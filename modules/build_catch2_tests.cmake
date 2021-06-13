@@ -27,7 +27,7 @@
 #
 # For example:
 #     build_catch2_tests(TEST something_test
-#                        SRC  main.cpp test_src1.cpp test_src2.cpp
+#                        SRC  test_src1.cpp test_src2.cpp
 #                        LIBS mylib yourlib)
 #
 function(build_catch2_tests)
